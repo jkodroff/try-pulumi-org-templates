@@ -1,6 +1,6 @@
-name: aws-ecs-fargate-service
+name: ${PROJECT}
 runtime: nodejs
-description: A minimal TypeScript Pulumi program
+description: ${DESCRIPTION}
 config:
   pulumi:tags:
     value:
