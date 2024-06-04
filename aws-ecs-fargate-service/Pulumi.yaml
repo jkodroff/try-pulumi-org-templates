@@ -6,6 +6,7 @@ config:
     value:
       pulumi:template: typescript
 template:
+  description: Deploys a single-container service on ECS on Fargate to a pre-existant VPC and ECS cluster
   config:
     vpcStack:
       description: "The full path of the upstream stack containing the VPC and ALB in the form of org/project/stack"
