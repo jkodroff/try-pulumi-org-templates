@@ -1,0 +1,13 @@
+{
+    "name": "aws-vpc",
+    "main": "index.ts",
+    "devDependencies": {
+        "@types/node": "^18",
+        "typescript": "^5.0.0"
+    },
+    "dependencies": {
+        "@pulumi/aws": "^6.38.0",
+        "@pulumi/awsx": "^2.11.0",
+        "@pulumi/pulumi": "^3.113.0"
+    }
+}

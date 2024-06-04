@@ -1,0 +1,16 @@
+name: aws-ecs-fargate-service
+runtime: nodejs
+description: A minimal TypeScript Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: typescript
+template:
+  config:
+    vpcStack:
+      description: "The full path of the upstream stack containing the VPC and ALB in the form of org/project/stack"
+    image:
+      description: "The application image to deploy, e.g. nginx:latest"
+    desiredCount:
+      description: "The desired number of container instances"
+      default: 1

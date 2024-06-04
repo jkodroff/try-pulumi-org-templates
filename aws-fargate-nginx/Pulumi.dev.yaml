@@ -1,0 +1,4 @@
+config:
+  aws-fargate-nginx:desiredCount: "1"
+  aws-fargate-nginx:image: nginx:latest
+  aws-fargate-nginx:vpcStack: jkodrofftest/aws-vpc/dev
